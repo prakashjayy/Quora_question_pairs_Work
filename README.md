@@ -18,7 +18,7 @@ https://gist.github.com/prats226/4ba1856a91664671dd7ef9bf9e821ff9
 - https://github.com/facebookresearch/poincare-embeddings
 - https://github.com/facebookresearch/fastText
 - https://pdfs.semanticscholar.org/b31e/447edb0af6ab5ddd4fc0ce3d4a8c6c70882e.pdf?_ga=2.53550959.631894776.1517046815-1803697881.1517046815
-
+- https://github.com/bradleypallen/keras-quora-question-pairs
 
 
 ## Work Process
@@ -51,5 +51,5 @@ https://gist.github.com/prats226/4ba1856a91664671dd7ef9bf9e821ff9
 ## Results and code
 - train_test_split.ipynb (splits the dataset into train(90%) and test(10%))
 - Basemodel3 - 80% accuracy
-- Data_processing_base_model6 - [Training in Progress]
+- Data_processing_base_model6 - 81% accuracy
 - Bidirectional_lstm_with_attention-base_model5 - [Training in Progress]
