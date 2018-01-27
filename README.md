@@ -1,6 +1,5 @@
 ## Quora Question Pairs Can you identify question pairs that have the same intent?
 
-https://nanonets.slack.com/messages/G8YBZSXAM/
 
 @ImportantPoints
 - Finishing the assignment (30%)
