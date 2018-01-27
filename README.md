@@ -47,6 +47,8 @@ https://gist.github.com/prats226/4ba1856a91664671dd7ef9bf9e821ff9
 - pandas==0.20.3
 - numpy==1.13.3
 - tqdm
+- nltk==3.2.4
+- re==2.2.1
 
 ## Results and code
 - train_test_split.ipynb (splits the dataset into train(90%) and test(10%))
