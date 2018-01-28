@@ -8,6 +8,30 @@
 - Data preprocessing/augmentation (10%)
 - Baseline accuracy of 80% (10%)
 
+## Packages used
+- tensorflow==1.3.0
+- keras==2.1.2
+- pandas==0.20.3
+- numpy==1.13.3
+- tqdm
+- nltk==3.2.4
+- re==2.2.1
+
+## Results and code
+- train_test_split.ipynb (splits the dataset into train(90%) and test(10%))
+- Basemodel3.ipynb - 80% accuracy
+- Data_processing_base_model6.ipynb - 81% accuracy
+- Bidirectional_lstm_with_attention-base_model5.ipynb - 81.2% accuracy (**Final Model**)
+- test.py (For inference)
+
+## Infernce on test data
+'''
+python test.py --model_weights "models/base_model5" --input_data_loc "data/model_test.csv"
+'''
+- create a folder **models**
+- Download the model weights to your models folder
+- Download the embedding_matrix and  tokenizer used for the model from https://drive.google.com/file/d/17MK7Gj4j-Udb1w1ygQLkJJK7loszltWU/view?usp=sharing https://drive.google.com/file/d/1Evw1XmyLZCZSruqA60aruuKc2xdIh_hW/view?usp=sharing and save it in your **data** folder **[Defualt]**
+- Run the above command by specifiying proper locations
 
 ## Links
 https://gist.github.com/prats226/4ba1856a91664671dd7ef9bf9e821ff9
@@ -39,19 +63,3 @@ https://gist.github.com/prats226/4ba1856a91664671dd7ef9bf9e821ff9
   - Another BiLSTM layer is utilized to aggregate the matching results into a fixed-length matching vector.
   - Based on the matching vector a decision is made through a fully connected layer.
 - keras Implementation: https://github.com/ijinmao/BiMPM_keras
-
-
-## Packages used
-- tensorflow==1.3.0
-- keras==2.1.2
-- pandas==0.20.3
-- numpy==1.13.3
-- tqdm
-- nltk==3.2.4
-- re==2.2.1
-
-## Results and code
-- train_test_split.ipynb (splits the dataset into train(90%) and test(10%))
-- Basemodel3 - 80% accuracy
-- Data_processing_base_model6 - 81% accuracy
-- Bidirectional_lstm_with_attention-base_model5 - [Training in Progress]
