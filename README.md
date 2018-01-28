@@ -29,8 +29,8 @@
 python test.py --model_weights "models/base_model5" --input_data_loc "data/model_test.csv"
 '''
 - create a folder **models**
-- Download the model weights to your models folder
-- Download the embedding_matrix and  tokenizer used for the model from https://drive.google.com/file/d/17MK7Gj4j-Udb1w1ygQLkJJK7loszltWU/view?usp=sharing https://drive.google.com/file/d/1Evw1XmyLZCZSruqA60aruuKc2xdIh_hW/view?usp=sharing and save it in your **data** folder **[Defualt]**
+- Download the model weights to your models folder https://drive.google.com/file/d/17MK7Gj4j-Udb1w1ygQLkJJK7loszltWU/view?usp=sharing
+- Download the embedding_matrix and  tokenizer used for the model from  https://drive.google.com/file/d/1Evw1XmyLZCZSruqA60aruuKc2xdIh_hW/view?usp=sharing and save it in your **data** folder **[Defualt]**
 - Run the above command by specifiying proper locations
 
 ## Links
