@@ -1,13 +1,5 @@
 ## Quora Question Pairs Can you identify question pairs that have the same intent?
 
-
-@ImportantPoints
-- Finishing the assignment (30%)
-- Neural network architecture selection and implementation (30%)
-- Code quality (20%)
-- Data preprocessing/augmentation (10%)
-- Baseline accuracy of 80% (10%)
-
 ## Packages used
 - tensorflow==1.3.0
 - keras==2.1.2
